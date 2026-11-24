@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "CommonJS",
+    "ignoreDeprecations": "6.0",
+    "target": "ES2022",
+    "types": ["node"],
+
+    "sourceMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": false,
+
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*","prisma/**/*", "src/app.ts", "server.ts"]
+}
